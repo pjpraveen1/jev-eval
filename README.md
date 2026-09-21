@@ -21,9 +21,6 @@ you can pick the right tool for the job.
 ├── verify_session.py            # Jev evaluator — sends N typed questions in ONE HTTP request
 ├── verify_session_bedrock.py    # Bedrock Claude Haiku 4.5 evaluator — imports the same questions
 ├── session.json                 # sample session trace evaluated by both scripts
-├── app.py                       # generic Jev classification harness with accuracy/ECE/Brier
-├── datasets/
-│   └── phishing_sample.jsonl    # 30-row labeled dataset used by app.py
 ├── requirements.txt             # requests, boto3
 ├── .env.example                 # copy to .env and fill in
 └── .gitignore
@@ -38,7 +35,7 @@ imports them, so both scripts always ask literally the same things.
 ```bash
 python3 -m pip install -r requirements.txt
 
-# TypeSafe key — required for verify_session.py and app.py
+# TypeSafe key — required for verify_session.py
 export TYPESAFE_API_KEY=apikey_...
 
 # AWS creds for Bedrock — required for verify_session_bedrock.py
@@ -94,19 +91,6 @@ QUESTIONS = {
 Both scripts pick it up on the next run. Jev still makes one HTTP request;
 Bedrock still makes one `converse` call. The Bedrock prompt just gets
 longer and Claude has to serialize one more JSON key.
-
-### Generic Jev classifier evaluation (`app.py`)
-
-```bash
-python3 app.py                                     # bundled phishing sample
-python3 app.py --dataset path/to/mydata.jsonl
-python3 app.py --verbose                           # per-row output
-```
-
-Reports accuracy, per-class precision/recall/F1, confusion matrix,
-Expected Calibration Error (ECE), Brier score, and latency stats.
-
-Dataset format is JSONL — one row per line with `input` and `label` keys.
 
 ## What the two scripts actually do differently
 
