@@ -1,0 +1,30 @@
+{"input": "Your PayPal account has been limited. Verify your identity within 24 hours: http://paypaI-verify.co/login", "label": "phishing"}
+{"input": "Reminder: your Amazon Prime renewal receipt is attached", "label": "legitimate"}
+{"input": "URGENT: We detected unusual sign-in from Nigeria. Click here to secure your account: bit.ly/aws-secure", "label": "phishing"}
+{"input": "Weekly newsletter: 5 things we learned from re:Invent 2026", "label": "legitimate"}
+{"input": "Congratulations! You have won a $500 Walmart gift card. Claim now: http://walm4rt-rewards.info", "label": "phishing"}
+{"input": "Your dentist appointment on Nov 3 at 2pm is confirmed. Reply STOP to cancel.", "label": "legitimate"}
+{"input": "IRS Notice: You are eligible for a $2,481 refund. Submit banking details here: irs-refund-portal.top", "label": "phishing"}
+{"input": "Slack: 3 new messages in #platform-eng", "label": "legitimate"}
+{"input": "Password expiring today - reset via secure link: office365-reset.services", "label": "phishing"}
+{"input": "Zoom meeting invite from Priya Sharma: quarterly review Thu 4pm", "label": "legitimate"}
+{"input": "Dear customer, we regret to inform you that your bank account has been suspended due to suspicious activity. Log in to reactivate: chase-support-team.com", "label": "phishing"}
+{"input": "GitHub: pull request #482 was merged into main", "label": "legitimate"}
+{"input": "Final notice - unpaid parcel delivery fee $2.99. Pay to release: royalmail-fee.co", "label": "phishing"}
+{"input": "Your DoorDash order from Blue Bottle Coffee has arrived", "label": "legitimate"}
+{"input": "Microsoft: Your subscription is about to be canceled. Confirm details immediately: microsoft-billing-check.xyz", "label": "phishing"}
+{"input": "Google Calendar reminder: standup at 9:00am in 15 minutes", "label": "legitimate"}
+{"input": "You have (1) new voicemail. Listen: http://voicemail-portal.info/play?id=8871", "label": "phishing"}
+{"input": "Netflix: We hope you enjoyed 'The Diplomat'. Rate it in the app.", "label": "legitimate"}
+{"input": "Wire transfer of $9,845 to account ending 4471 pending approval. Cancel here if unauthorized: wellsfargo-alerts.support", "label": "phishing"}
+{"input": "Uber receipt: your ride from SFO to Palo Alto - $52.30", "label": "legitimate"}
+{"input": "SECURITY ALERT: sign-in from unrecognized device. Click to review: apple-id-security.online", "label": "phishing"}
+{"input": "Duolingo: Keep your 14-day streak alive! Practice Spanish today.", "label": "legitimate"}
+{"input": "Your package could not be delivered. Reschedule and pay redelivery fee: usps-redeliver.top", "label": "phishing"}
+{"input": "Your monthly AWS invoice for October 2026 is now available", "label": "legitimate"}
+{"input": "Human Resources: Please review the attached bonus statement (PDF). Click to view: hr-payroll-portal.info", "label": "phishing"}
+{"input": "Strava: You just earned a new 10K PR - congrats!", "label": "legitimate"}
+{"input": "This is Chase Fraud Dept. Reply YES to authorize $1,299 charge at BestBuy. Reply NO to decline.", "label": "legitimate"}
+{"input": "Attention: your Instagram account will be permanently deleted in 24 hours unless you verify: ig-verify-team.support", "label": "phishing"}
+{"input": "Your Kindle book 'The Diplomat's Wife' is now available on your device", "label": "legitimate"}
+{"input": "Crypto reward eligible: claim 0.5 ETH before it expires. Wallet connect: eth-airdrop-claim.io", "label": "phishing"}
